@@ -1,3 +1,6 @@
+
+<!-- 写组件的地方 -->
+
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
