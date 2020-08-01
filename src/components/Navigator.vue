@@ -4,7 +4,7 @@
     <h1>头条</h1>
     <section class="nav-list">
         <section v-for="item,index in navs" :key="item.id" class="nav-item">{{item.text}}</section>
-    </section>
+    </section>   
 </div>
 </template>
 
@@ -66,6 +66,7 @@ activated() {}, //如果页面有keep-alive缓存功能，这个函数会触发
       color: #ea4245;
       font-size: 20px;
       font-weight: 100;
+      cursor: pointer;
   }
 
   .nav-list {

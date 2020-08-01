@@ -11,6 +11,10 @@ import axios from "./comcon/myaxios"
 // 在Vue的原型上添加 $axios
 Vue.prototype.$axios = axios
 
+//引入 element-UI 组件库
+import {Message} from "element-ui" 
+Vue.prototype.$message = Message;
+
 // 控制台 [HMR] Waiting for update signal from WDS...
 Vue.config.productionTip = false
 
